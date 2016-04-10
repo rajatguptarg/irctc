@@ -68,6 +68,11 @@ TEMPLATES = [
     },
 ]
 
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'irctc', 'templates'),
+)
+
 WSGI_APPLICATION = 'irctc.wsgi.application'
 
 
